@@ -1,4 +1,61 @@
-img{width: 50px;}
-.selfie{width: 500px;}
-.java{width: 112px;}
-body{background-image:linear-gradient(blue,red); }
+@font-face {
+    font-family: 'Horizon';
+    src: url('../assets/fonts/horizon/horizon.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Horizon-outline';
+    src: url('../assets/fonts/horizon/horizon_outlined.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Alternates';
+    src: url('../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #007C96;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.principal{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.textos_principal{
+    width: 30%;
+}
+.textos_principal h2{
+    font-family: 'Horizon-outline';
+}
+.textos_principal h1{
+    font-family: 'Horizon';
+}
+.textos_principal h2{
+    font-family: 'Montserrat-Alternates';
+}
+.textos_principal a{
+    font-family: 'Horizon';
+    border: 5px solid #F1F2EB;
+    border-radius: 50px;
+    color: #F1F2EB;
+    text-decoration: none;
+    padding: 3%;
+}
+.imagens_principal{
+    width: 50%;
+    background-color: aqua;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
