@@ -2,10 +2,12 @@
     font-family: 'Horizon';
     src: url('../assets/fonts/horizon/horizon.otf') format('truetype');
 }
+
 @font-face {
     font-family: 'Horizon-outline';
     src: url('../assets/fonts/horizon/horizon_outlined.otf') format('truetype');
 }
+
 @font-face {
     font-family: 'Montserrat-Alternates';
     src: url('../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf') format('truetype');
@@ -16,14 +18,42 @@
 body {
     background-color: #007C96;
 }
-header{
+
+header {
     width: 100%;
     height: 10vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3%;
 }
-.principal{
+header img{
+    width: 50px;
+    height: 50px;
+}
+.botao_contato {
+    font-family: 'Horizon';
+    border: 5px solid #F1F2EB;
+    border-radius: 50px;
+    background-color: #F1F2EB;
+    color: #007C96;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8px;
+    min-height: 8px;
+    width: 110px;
+    padding: 1%;
+}
+.botao_contato:hover{
+    color: #F1F2EB;
+    background-color: #007C96;
+    transition: all 0.5s;
+}
+
+.principal {
     width: 100%;
     height: 90vh;
     display: flex;
@@ -31,19 +61,24 @@ header{
     align-items: center;
     justify-content: space-around;
 }
-.textos_principal{
+
+.textos_principal {
     width: 30%;
 }
-.textos_principal h2{
+
+.textos_principal h2 {
     font-family: 'Horizon-outline';
 }
-.textos_principal h1{
+
+.textos_principal h1 {
     font-family: 'Horizon';
 }
-.textos_principal h2{
+
+.textos_principal h2 {
     font-family: 'Montserrat-Alternates';
 }
-.textos_principal a{
+
+.textos_principal a {
     font-family: 'Horizon';
     border: 5px solid #F1F2EB;
     border-radius: 50px;
@@ -51,11 +86,13 @@ header{
     text-decoration: none;
     padding: 3%;
 }
-.imagens_principal{
+
+.imagens_principal {
     width: 50%;
     background-color: aqua;
 }
-img{
+
+img {
     height: 100px;
     width: 100px;
 }
