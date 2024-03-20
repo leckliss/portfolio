@@ -11,7 +11,7 @@ GitIcon.addEventListener('mouseleave', function() {
 const LinkedinIcon = document.getElementById('linkedin');
 
 LinkedinIcon.addEventListener('mouseenter', function() {
-    this.src = '../assets/img/LinkedinHover.svg'; 
+    this.src = './assets/img/LinkedinHover.svg'; 
 });
 
 LinkedinIcon.addEventListener('mouseleave', function() {
