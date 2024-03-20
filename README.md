@@ -3,3 +3,9 @@
 <br>
 
 <h2>this is my page</h2>
+
+<br>
+
+<h3>SKILLS</h3>
+
+<img src="./assets/img/foto_principal.svg">
