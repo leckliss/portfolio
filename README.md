@@ -8,4 +8,4 @@
 
 <h3>SKILLS</h3>
 
-<img src="./assets/img/foto_principal.svg">
+<img src="./assets/img/foto_principal.svg" width="100" height="75">
